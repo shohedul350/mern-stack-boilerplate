@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ :root {
+  --primary-color: #043a5a;
+  --dark-color: #333;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #c0bfbd;
+  --xxx-color:#b5b8b7;
+}
+/**************Navbar ******************/
+.navbar, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 1rem;
+  z-index: 1;
+  width: 100%;
+  color:var(--light-color);
+  background-color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.logo p {
+  font-size: 0.9rem;
+  margin-top:0.5rem;
+  color:#ccc
+}
+.logo span {
+  color: rgb(255, 57, 22)
+}
+.navbar ul {
+  display: flex;
+ }
+ .navbar i, h1 {
+  padding: 0 1rem
+}
+li{
+  list-style: none;
+  padding: 0 1rem;
+  transition: all 0.3s ease 0s;
+}
+a{
+  text-decoration: none;
+  color:var(--light-color)
+}
+li i:hover ,a:hover{
+  opacity: 0.5;  
+  cursor: pointer;
+}
+
+/* **************app ************************ */
+.app-container{
+  max-width: 90rem;
+  margin: auto;
+  }
+ 
+  
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end
+
+}
+.danger {
+  background-color: rgb(207, 58, 58);
+  width: 100%;
+  margin-bottom: 0.3rem;
+  margin-top:0rem;
+  text-transform: capitalize;
+  padding:0.5rem;
+  cursor:initial;
+  border:none;
+  color:#fff;
+  font:inherit
+  
+  }
+.danger span {
+  float: right;
+  cursor: pointer;
+}

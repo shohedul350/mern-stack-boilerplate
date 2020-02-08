@@ -1,0 +1,28 @@
+export const TOGGLES_FILTER='TOGGLES_FILTER'
+export const SEARCH_GUEST='SEARCH_GUEST'
+export const CLEAR_SEARCH='CLEAR_SEARCH'
+export const ADD_GUESTS='ADD_GUESTS'
+export const REMOVE_GUESTS='REMOVE_GUESTS'
+export const UPDATE_GUESTS='UPDATE_GUESTS'
+export const EDIT_GUESTS='EDIT_GUESTS'
+export const CLEAR_EDIT='CLEAR_EDIT'
+
+export const SUCCES_REGISTER='SUCCES_REGISTER'
+export const SUCCES_LOGIN='SUCCES_LOGIN'
+export const FAIL_REGISTER='FAIL_REGISTER'
+export const FAIL_LOGIN='FAIL_LOGIN'
+
+
+export const SET_ERROR='SET_ERROR'
+export const CLEAR_ERROR='CLEAR_ERROR'
+
+export const LOG_OUT='LOG_OUT'
+
+export const SET_USER='SET_USER'
+export const AUTH_ERROR='AUTH_ERROR'
+
+export const GET_GUEST ='GET_GUEST'
+export const GUEST_ERROR='GUEST_ERROR'
+
+
+
